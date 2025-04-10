@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appreciation for Julia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="heart.png" type="image/png">
+</head>
+<body>
+
+  <div class="custom-audio-display" id="audioStatus">
+    <div class="wave-container">
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <span class="now-playing-text">DtMF by Bad Bunny  <i>is now playing...</i></span>
+    <div class="audio-controls">
+      <button id="pauseBtn" class="icon-btn"><i class="fas fa-pause"></i></button>
+      <button id="restartBtn" class="icon-btn"><i class="fas fa-undo-alt"></i></button>
+    </div>
+    <audio id="customAudio" src="DtMF-badbunny.mp3" loop></audio>
+  </div>
+  
+
+  <section id="love-letter">
+    <img class="envelope" id="envelope" src="envelope-close.png" alt="Envelope" />
+
+    <div id="messageCard" class="card">
+      <!-- <div class="banner">
+        <img src="heartflow.gif" alt="Animated Banner">
+      </div> -->
+      <!-- <h1>CONGRATULATIONS</h1> -->
+      <div id="finalMessage" > I Love you forever ❤️</div>
+      <div class="button-container">
+        <button class="icon-btn" id="resetBtn"><i class="fas fa-sync-alt"></i></button>
+        <button class="icon-btn" id="closeBtn"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+
+    <div class="tear-divider">
+      <img src="tear-paper.png" alt="Tear Divider" />
+    </div>
+    <div class="scroll-hint">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <section id="scroll-reveal">
+    <div class="reveal-item right">
+      <img class="lean2" src="hulio.png" alt="Hulio" />
+      <div class="reveal-text">Look, Hulio is here too!</div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="reveal-item left" id="reveal2">
+      <img id="lean" src="hulio.png" alt="Lean Image" />
+      <div id="message" style="font-family: monospace; white-space: pre;"> tickle me (●'◡'●)</div>
+    </div>
+  </section>
+
+  <!-- <section id="scroll-reveal">
+     <div class="banner">
+        <img src="flower-mag.gif" alt="Animated Banner">
+      </div> 
+  </section> -->
+  <!-- <section id="scroll-reveal">
+    <div class="banner">
+       <img src="lily.gif" alt="Animated Banner">
+     </div> 
+ </section> -->
+
+  <script src="script.js"> </script>
+</body>
+</html>
