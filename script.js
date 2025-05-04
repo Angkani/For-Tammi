@@ -96,7 +96,7 @@ Keep shining, Keep being amazing 🌟💖 and, Happy Graduation..`,
 let messageIndex = 0;
 let isTyping = false;
 
-leanImage.addEventListener('mouseover', () => {
+leanImage.addEventListener('click', () => {
   if (!isTyping) {
     isTyping = true;
 
