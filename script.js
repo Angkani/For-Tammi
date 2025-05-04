@@ -40,11 +40,11 @@ const messageData = [
     image: "hulio8.png"
   },
   {
-    message: "seeing you both apart is crushing me",
+    message: "seeing you both apart is crashing me",
     image: "hulio7.png"
   },
   {
-    message: "anyway, before i get caught out in the moment",
+    message: "anyway, before i get caught up in the moment",
     image: "hulio1.png"
   }, 
   {
