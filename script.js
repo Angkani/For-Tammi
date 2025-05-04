@@ -391,9 +391,9 @@ const audioNextBtn = document.getElementById("audioNextBtn");
 const audioPrevBtn = document.getElementById("audioPrevBtn");
 const playlist = [
   { title: "Do I wanna know?", src: "hozier-doiwannaknow.mp3" },
+  { title: "Peace", src: "peace.mp3" },
   { title: "My Favorite Part", src: "myfavoritepart.mp3" },
-  { title: "DtMF by Bad Bunny", src: "DtMF-badbunny.mp3" },
- 
+  { title: "DtMFy", src: "DtMF-badbunny.mp3" },
   { title: "The Way", src: "theway.mp3" }
 ];
 
