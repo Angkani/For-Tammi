@@ -28,19 +28,23 @@ const messageData = [
     image: "hulio9.png"
   },
   {
-    message: "his love for you has always been remain the same",
+    message: "his love for you has always remained the same",
     image: "hulio7.png"
   },
   {
-    message: "from your first meeting until now",
+    message: "From the moment you first met — ",
+    image: "hulio8.png"
+  },
+   {
+    message: "until now...",
     image: "hulio8.png"
   },
   {
-    message: "in matter of fact, it grow so so much each and every day",
+    message: "in matter of fact, it grow so much more each and every day",
     image: "hulio8.png"
   },
   {
-    message: "seeing you both apart is crashing me",
+    message: "seeing you both apart is crashing me... yk",
     image: "hulio7.png"
   },
   {
