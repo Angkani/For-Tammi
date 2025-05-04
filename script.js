@@ -16,7 +16,7 @@ const messageData = [
     image: "hulio4.png"
   },
   {
-    message: "You got me 😊",
+    message: "You got me! just continue tickling me to reveal the message 😊",
     image: "hulio3.png"
   },
   {
