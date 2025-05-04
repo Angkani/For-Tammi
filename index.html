@@ -18,9 +18,23 @@
     </div>
     <span class="now-playing-text">DtMF by Bad Bunny  <i>is now playing...</i></span>
     <div class="audio-controls">
-      <button id="pauseBtn" class="icon-btn"><i class="fas fa-pause"></i></button>
-      <button id="restartBtn" class="icon-btn"><i class="fas fa-undo-alt"></i></button>
+      <button id="audioPrevBtn" class="icon-btn2"><i class="fas fa-backward"></i></button>
+      <button id="audioPauseBtn" class="icon-btn2"><i class="fas fa-pause"></i></button>
+      <button id="audioRestartBtn" class="icon-btn2"><i class="fas fa-undo-alt"></i></button>
+      
+      <button id="audioNextBtn" class="icon-btn2"><i class="fas fa-forward"></i></button>
+      
+      <!-- Volume Control -->
+        <!-- Volume Control Button -->
+      <div class="volume-container">
+        <button id="volumeBtn" class="icon-btn2">
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <!-- Hidden Volume Slider -->
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" class="volume-slider">
+      </div>
     </div>
+    
     <audio id="customAudio" src="DtMF-badbunny.mp3" loop></audio>
   </div>
   
@@ -29,14 +43,14 @@
     <img class="envelope" id="envelope" src="envelope-close.png" alt="Envelope" />
 
     <div id="messageCard" class="card">
-      <!-- <div class="banner">
-        <img src="heartflow.gif" alt="Animated Banner">
-      </div> -->
-      <!-- <h1>CONGRATULATIONS</h1> -->
+      
       <div id="finalMessage" > I Love you forever ❤️</div>
       <div class="button-container">
         <button class="icon-btn" id="resetBtn"><i class="fas fa-sync-alt"></i></button>
+        <button id="prevBtn" class="icon-btn"><i class="fas fa-arrow-left"></i></button>  
+        <button id="nextBtn" class="icon-btn"><i class="fas fa-arrow-right"></i></button>
         <button class="icon-btn" id="closeBtn"><i class="fas fa-times"></i></button>
+
       </div>
     </div>
 
@@ -62,16 +76,6 @@
     </div>
   </section>
 
-  <!-- <section id="scroll-reveal">
-     <div class="banner">
-        <img src="flower-mag.gif" alt="Animated Banner">
-      </div> 
-  </section> -->
-  <!-- <section id="scroll-reveal">
-    <div class="banner">
-       <img src="lily.gif" alt="Animated Banner">
-     </div> 
- </section> -->
 
   <script src="script.js"> </script>
 </body>
