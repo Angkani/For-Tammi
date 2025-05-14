@@ -16,24 +16,33 @@
       <div class="wave"></div>
       <div class="wave"></div>
     </div>
-    <span class="now-playing-text">DtMF by Bad Bunny  <i>is now playing...</i></span>
-    <div class="audio-controls">
-      <button id="audioPrevBtn" class="icon-btn2"><i class="fas fa-backward"></i></button>
-      <button id="audioPauseBtn" class="icon-btn2"><i class="fas fa-pause"></i></button>
-      <button id="audioRestartBtn" class="icon-btn2"><i class="fas fa-undo-alt"></i></button>
+    <div class="playerSong">
+      <span class="now-playing-text">DtMF by Bad Bunny  <i>is now playing...</i></span><br>
       
-      <button id="audioNextBtn" class="icon-btn2"><i class="fas fa-forward"></i></button>
+      <input type="range" id="progressBar" value="0" min="0" max="100" step="1">
       
-      <!-- Volume Control -->
-        <!-- Volume Control Button -->
-      <div class="volume-container">
-        <button id="volumeBtn" class="icon-btn2">
-          <i class="fas fa-volume-up"></i>
-        </button>
-        <!-- Hidden Volume Slider -->
-        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" class="volume-slider">
+      <div class="audio-controls">
+        <button id="audioPrevBtn" class="icon-btn2"><i class="fas fa-backward"></i></button>
+        <button id="audioPauseBtn" class="icon-btn2"><i class="fas fa-pause"></i></button>
+        <button id="audioRestartBtn" class="icon-btn2"><i class="fas fa-undo-alt"></i></button>
+        <button id="audioNextBtn" class="icon-btn2"><i class="fas fa-forward"></i></button>
+     
       </div>
     </div>
+          <!-- <div class="volume-container">
+            <button id="volumeBtn" class="icon-btn2">
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" class="volume-slider">
+          </div> -->
+          <div class="volume-container">
+            <button id="volumeBtn" class="icon-btn2">
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" class="volume-slider">
+          </div>
+  
+  
     
     <audio id="customAudio" src="DtMF-badbunny.mp3" loop></audio>
   </div>
@@ -41,6 +50,11 @@
 
   <section id="love-letter">
     <img class="envelope" id="envelope" src="envelope-close.png" alt="Envelope" />
+    <!-- <div class="envelope" id="envelope" >
+      <img src="envelope-open2.png" alt="Envelope Open" class="open">
+      <img src="envelope-close.png" alt="Envelope Close" class="close">
+    </div> -->
+
 
     <div id="messageCard" class="card">
       
@@ -54,9 +68,9 @@
       </div>
     </div>
 
-    <div class="tear-divider">
-      <img src="tear-paper.png" alt="Tear Divider" />
-    </div>
+      <!-- <div class="tear-divider">
+        <img src="tear-paper.png" alt="Tear Divider" />
+      </div> -->
     <div class="scroll-hint">
       <i class="fas fa-chevron-down"></i>
     </div>
@@ -67,8 +81,9 @@
       <img class="lean2" src="hulio.png" alt="Hulio" />
       <div class="reveal-text">Look, Hulio is here too!</div>
     </div>
-  </section>-->
+  </section> -->
   <section class="spacer"></section>
+  
   <section>
     <div class="reveal-item left" id="reveal2">
       <img id="lean" src="hulio.png" alt="Lean Image" />
